@@ -1,0 +1,33 @@
+.encabezado-general{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 20px 50px;
+}
+
+.encabezado-general > img{
+    width: 200px;
+}
+
+.encabezado-general > nav > ul{
+    display: flex;
+}
+
+.encabezado-general > nav > ul > li{
+    height: 50px;
+    list-style: none;
+    margin: 0 10px;
+}
+
+.encabezado-general > nav > ul > li >a{
+    font-family: sans-serif;
+    text-decoration: none;
+    height: 50px;
+}
+
+.encabezado-general  nav > ul > li >a:hover{
+    border-top: red 2px solid;
+    color: red;
+    padding-top: 25px;
+}
+
